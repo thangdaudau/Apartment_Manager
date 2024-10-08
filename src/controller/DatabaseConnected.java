@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class DatabaseConnected {
     private static final String URL = "jdbc:mysql://localhost:3306/apartment";
     private static final String USER = "root";
-    private static final String PASSWORD = "password";
+    private static final String PASSWORD = "";
 
     // Kết nối đến cơ sở dữ liệu
     public static Connection getConnection() throws DatabaseConnectionException {
